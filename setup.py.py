@@ -9,12 +9,6 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 setup(
     name="legal-llama-finetune",
     version="0.1.0",
-    author="Ваше имя",
-    author_email="ваш.email@example.com",
-    description="Инструмент для извлечения юридических вопросов и ответов и дообучения Llama 2",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/LegalLlama-Finetune",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
